@@ -1,0 +1,74 @@
+﻿
+/* drizzle some sweet comments to look like a good boy :)*/
+
+/* styles for forms */
+.form-validators {
+    color: red;
+}
+
+.form-dropdown {
+    width: 200px;
+    height: 25px;
+}
+
+.form-textbox {
+    width: 200px;
+    height: 25px;
+}
+
+.form-submit-button {
+    width: 100px;
+    height: 100px;
+}
+
+.form-labels {
+    font-size: 16px;
+}
+
+/* styles for tables */
+.table-column-labels {
+    width: 200px;
+    height: 50px;
+    padding-left:10px;
+}
+
+.table-column-fields {
+    width: 300px;
+    height: 50px;
+    padding-left:10px;
+}
+
+.table-column-submit {
+    width: 200px;
+    height: 50px;
+    text-align: right;
+    padding-right: 0px;
+}
+
+
+/* styles for grid views */
+.grid-column-id{
+    width:80px;
+    text-align:center
+}
+
+.grid-column-id-header {
+    width: 80px;
+    text-align: center
+}
+
+.grid-column {
+    width: 120px;
+    text-align: center
+}
+
+.gridview {
+    height:234px;
+    width:681px; 
+    background-color:white;
+    border-color:#CCCCCC;
+    border-style:none;
+    border-width:1px;
+    padding:4px;
+    color:Black;
+}

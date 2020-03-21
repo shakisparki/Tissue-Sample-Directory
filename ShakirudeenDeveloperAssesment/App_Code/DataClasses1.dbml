@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SamplesDb" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\SamplesDb.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SamplesDbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_collection" Member="tb_collections">
+    <Type Name="tb_collection">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Term" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="tb_collection_tb_sample" Member="tb_samples" ThisKey="Id" OtherKey="Collection_Id" Type="tb_sample" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tb_samples" Member="tb_samples">
+    <Type Name="tb_sample">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Collection_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Donor_Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Material_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Last_Updated" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="tb_collection_tb_sample" Member="tb_collection" ThisKey="Collection_Id" OtherKey="Id" Type="tb_collection" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
