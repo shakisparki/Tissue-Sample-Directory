@@ -37,6 +37,87 @@ ShakirudeenDeveloperAssesment
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._tb_term">
+<summary>
+tb_term control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._tb_title">
+<summary>
+tb_title control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._lbl_status">
+<summary>
+lbl_status control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._btn_submit">
+<summary>
+btn_submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ShakirudeenDeveloperAssesment.AddCollection._LinqDataSource1">
+<summary>
+LinqDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:ShakirudeenDeveloperAssesment.Display._GridView1">
 <summary>
 GridView1 control.

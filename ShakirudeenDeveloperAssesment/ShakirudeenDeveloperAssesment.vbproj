@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddCollection.aspx" />
     <Content Include="App_Data\SamplesDb.mdf" />
     <Content Include="App_Data\SamplesDb_log.ldf">
       <DependentUpon>SamplesDb.mdf</DependentUpon>
@@ -199,6 +200,13 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCollection.aspx.designer.vb">
+      <DependentUpon>AddCollection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCollection.aspx.vb">
+      <DependentUpon>AddCollection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
